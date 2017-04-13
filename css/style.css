@@ -108,15 +108,17 @@ input, select {
 
 .nav-wrapper {
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	margin: 20px auto 10px auto;
 	background-color: gray;
+	clear: none;
+	overflow: hidden;
 }
 
 .logo-box {
 	width: 200px;
-	height: 70px;
-	margin: 15px 20px;
+	height: 80px;
+	margin: 0px 20px;
 	float: left;
 	background-color: #fff;
 }
@@ -129,7 +131,7 @@ nav ul {
 nav ul li {
 	display: block;
 	float: left;
-	margin: 40px 0px;
+	margin: 30px 0px;
 	list-style: none;
 }
 nav ul li a{
@@ -137,7 +139,7 @@ nav ul li a{
 	color: #fff;
 	font-size: 20px;
 	font-weight: 100%;
-	padding: 20px;
+	padding: 30px;
 }
 
 nav ul li a:hover {
@@ -149,7 +151,6 @@ nav ul li a:hover {
 	width: 80%;
 	height: 400px;
 	margin: 10px auto;
-	background-color: yellow;
 }
 
 .wrapper {
@@ -159,14 +160,13 @@ nav ul li a:hover {
 }
 
 .service-link {
-	width: 30%;
-	margin: 10px 25px;
+	width: 20%;
+	margin: 10px 2.5%;
 	float: left;
 }
 
 .service-link  img{
 	width: 100%;
-	height: 200px;
 }
 
 .service-link  p{
@@ -215,4 +215,9 @@ nav ul li a:hover {
 .footer-box ul li a:hover {
 	color: #000;
 	text-decoration: underline;
+}
+
+.footer-box p {
+	float: right;
+	margin: 15px;
 }
